@@ -18,14 +18,14 @@ This repository includes source files of "GNN Transformation Framework for Impro
 
 ## Comparisons
 + Non-scalable GNN
-  + GCN (http://tkipf.github.io/graph-convolutional-networks/, https://github.com/tkipf/pygcn)
-  + JKNet (https://arxiv.org/abs/1806.03536)
-  + GPRGNN (https://openreview.net/forum?id=n6jl7fLxrP, https://github.com/jianhao2016/GPRGNN)
+  + GCN ([paper](https://arxiv.org/abs/1609.02907), [code](https://github.com/tkipf/pygcn))
+  + JKNet ([paper](https://arxiv.org/abs/1806.03536))
+  + GPRGNN ([paper](https://openreview.net/forum?id=n6jl7fLxrP), [code](https://github.com/jianhao2016/GPRGNN))
 + Precomputation-based GNN
-  + SGC (https://arxiv.org/abs/1902.07153, https://github.com/Tiiiger/SGC)
-  + FSGNN (https://arxiv.org/abs/2105.07634, https://github.com/sunilkmaurya/FSGNN)
+  + SGC ([paper](https://arxiv.org/abs/1902.07153), [code](https://github.com/Tiiiger/SGC))
+  + FSGNN ([paper](https://arxiv.org/abs/2105.07634), [code](https://github.com/sunilkmaurya/FSGNN))
 + Sampling-based GNN
-  + shaDow-GNN (https://arxiv.org/abs/2201.07858, https://github.com/facebookresearch/shaDow_GNN)
+  + shaDow-GNN ([paper](https://arxiv.org/abs/2201.07858), [code](https://github.com/facebookresearch/shaDow_GNN))
 
 # Datasets
   | Dataset   | Nodes | Edges | Features | Classes |
