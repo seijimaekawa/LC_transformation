@@ -36,4 +36,4 @@ This repository includes source files of "GNN Transformation Framework for Impro
   | [ogbn-papers100M](https://ogb.stanford.edu/docs/nodeprop/) | 111,059,956 | 1,615,685,872 | 128 | 172 |
 
 # Instruction 
-To run our codes, please open "run.ipynb" and execute cells from top to bottom. 
+To run our codes, please open [run.ipynb](https://github.com/seijimaekawa/LC_transformation/blob/master/run.ipynb) and execute cells from top to bottom. 
