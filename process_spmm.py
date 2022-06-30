@@ -12,10 +12,7 @@ from torch_sparse import transpose as ts_trans
 import argparse
 from tqdm import tqdm
 import time
-import json
 import math
-
-import pynvml
 
 import sys
 import os
@@ -31,14 +28,6 @@ parser.add_argument('--filter',type=str,
 parser.add_argument('--nhop',type=int,default=5,help='number of hops')
 parser.add_argument("--gpu", default=0, type=int, help="which GPU to use")
 parser.add_argument("--inductive", type=bool, default=False, help="inductive or transductive setting")
-
-def get_memory_free_MiB(gpu_index):
-    pynvml.nvmlInit()
-    h = pynvml.nvmlDeviceGetHandleByIndex(gpu_index)
-    info = pynvml.nvmlDeviceGetMemoryInfo(h)
-    print(f'total    : {info.total}')
-    print(f'free     : {info.free}')
-    print(f'used     : {info.used}')
 
 def minibatch_normalization(adj,N,k=1000000):
     deg = ts_sum(adj, dim=1)
