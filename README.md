@@ -1,5 +1,5 @@
 # LC Transformation
-This repository includes source files of "<a href="https://arxiv.org/abs/2207.12000">GNN Transformation Framework for Improving Efficiency and Scalability</a>":
+This repository includes source files of "<a href="https://arxiv.org/abs/2207.12000">GNN Transformation Framework for Improving Efficiency and Scalability</a>", which was accepted to ECML PKDD 2022🎉🎉
 ## Source codes
 + run.ipynb : A Jupyter notebook for running all procedures from precomputation to model training.
 + process_spmm.py : A source file for precomputation of feature aggregation.
